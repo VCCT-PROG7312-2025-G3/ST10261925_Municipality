@@ -4,11 +4,14 @@ using System.IO;
 
 namespace Municipality
 {
+    // form that user use to report municipal issues
     public partial class ReportIssuesForm : Form
     {
+        // tracks how many issues have been reported
         private int issueCount = 0;
         private string attachedFilePath = "";
 
+        // constructor
         public ReportIssuesForm()
         {
             InitializeComponent();
@@ -17,6 +20,7 @@ namespace Municipality
             LbIssReport.Text = "Issues Reported are : 0";
         }
 
+       // to attach a file 
         private void BtAttFile_Click(object sender, EventArgs e)
         {
            OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -29,6 +33,7 @@ namespace Municipality
             UpdateProgress();
         }
 
+        // to submit report
         private void BtSubmit_Click(object sender, EventArgs e)
         {
          if (string.IsNullOrWhiteSpace(TBlocation.Text) || CBCategory.SelectedIndex == -1 || string.IsNullOrWhiteSpace(rTBDescricption.Text) || string.IsNullOrEmpty(attachedFilePath))
@@ -53,16 +58,17 @@ namespace Municipality
             UpdateProgress();
         }
 
+       // close form to go to main menuu
         private void BtMM2_Click(object sender, EventArgs e)
         {
          this.Close();
         }
-
             private void CbCategory_SelectedIndexChanged(object sender, EventArgs e)
         {
        UpdateProgress();
         }
 
+        // to calculate and update progress level
         private void UpdateProgress()
         {
             int progress = 0;
@@ -73,6 +79,7 @@ namespace Municipality
             LbProgress.Text = $"Progress: {progress}%";
         }
 
+        // event handlers
         private void label1_Click(object sender, EventArgs e)
         {
         }
@@ -80,6 +87,12 @@ namespace Municipality
         {
         }
         private void label2_Click(object sender, EventArgs e)
+        {
+        }
+        private void LbProgress_Click(object sender, EventArgs e)
+        {
+        }
+        private void label4_Click(object sender, EventArgs e)
         {
         }
     }

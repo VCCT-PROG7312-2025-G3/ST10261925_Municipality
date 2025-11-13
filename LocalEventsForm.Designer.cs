@@ -93,7 +93,7 @@
             this.LbUpcomingEve.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.LbUpcomingEve.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LbUpcomingEve.Location = new System.Drawing.Point(196, 239);
+            this.LbUpcomingEve.Location = new System.Drawing.Point(12, 237);
             this.LbUpcomingEve.Name = "LbUpcomingEve";
             this.LbUpcomingEve.Size = new System.Drawing.Size(828, 179);
             this.LbUpcomingEve.TabIndex = 2;
@@ -103,7 +103,7 @@
             // 
             this.Lbsearch.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.Lbsearch.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbsearch.Location = new System.Drawing.Point(42, 451);
+            this.Lbsearch.Location = new System.Drawing.Point(53, 451);
             this.Lbsearch.Name = "Lbsearch";
             this.Lbsearch.Size = new System.Drawing.Size(182, 91);
             this.Lbsearch.TabIndex = 3;
@@ -124,7 +124,7 @@
             // 
             this.LbFilter.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.LbFilter.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LbFilter.Location = new System.Drawing.Point(40, 589);
+            this.LbFilter.Location = new System.Drawing.Point(53, 589);
             this.LbFilter.Name = "LbFilter";
             this.LbFilter.Size = new System.Drawing.Size(184, 103);
             this.LbFilter.TabIndex = 5;
@@ -148,7 +148,7 @@
             this.BtSearchCat.BackColor = System.Drawing.Color.ForestGreen;
             this.BtSearchCat.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtSearchCat.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtSearchCat.Location = new System.Drawing.Point(777, 451);
+            this.BtSearchCat.Location = new System.Drawing.Point(796, 451);
             this.BtSearchCat.Name = "BtSearchCat";
             this.BtSearchCat.Size = new System.Drawing.Size(162, 91);
             this.BtSearchCat.TabIndex = 7;
@@ -162,7 +162,7 @@
             this.BtFilter.BackColor = System.Drawing.Color.ForestGreen;
             this.BtFilter.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtFilter.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtFilter.Location = new System.Drawing.Point(777, 589);
+            this.BtFilter.Location = new System.Drawing.Point(796, 589);
             this.BtFilter.Name = "BtFilter";
             this.BtFilter.Size = new System.Drawing.Size(162, 103);
             this.BtFilter.TabIndex = 8;
@@ -185,7 +185,7 @@
             this.BtRMM1.BackColor = System.Drawing.Color.ForestGreen;
             this.BtRMM1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtRMM1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtRMM1.Location = new System.Drawing.Point(730, 18);
+            this.BtRMM1.Location = new System.Drawing.Point(727, 9);
             this.BtRMM1.Name = "BtRMM1";
             this.BtRMM1.Size = new System.Drawing.Size(231, 72);
             this.BtRMM1.TabIndex = 10;

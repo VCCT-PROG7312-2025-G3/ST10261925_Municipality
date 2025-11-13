@@ -62,7 +62,7 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::Municipality.Properties.Resources.Screenshot_2025_10_16_125039;
-            this.pictureBox1.Location = new System.Drawing.Point(1157, 659);
+            this.pictureBox1.Location = new System.Drawing.Point(1144, 151);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(187, 167);
@@ -110,7 +110,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(553, 4);
+            this.label2.Location = new System.Drawing.Point(594, 4);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(263, 55);
@@ -125,7 +125,7 @@
             this.BTReportIssue.BackColor = System.Drawing.Color.ForestGreen;
             this.BTReportIssue.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTReportIssue.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BTReportIssue.Location = new System.Drawing.Point(83, 329);
+            this.BTReportIssue.Location = new System.Drawing.Point(76, 329);
             this.BTReportIssue.Margin = new System.Windows.Forms.Padding(4);
             this.BTReportIssue.Name = "BTReportIssue";
             this.BTReportIssue.Size = new System.Drawing.Size(261, 277);
@@ -140,7 +140,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.BTlocalEA.BackColor = System.Drawing.Color.ForestGreen;
             this.BTlocalEA.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BTlocalEA.Location = new System.Drawing.Point(489, 329);
+            this.BTlocalEA.Location = new System.Drawing.Point(483, 329);
             this.BTlocalEA.Margin = new System.Windows.Forms.Padding(4);
             this.BTlocalEA.Name = "BTlocalEA";
             this.BTlocalEA.Size = new System.Drawing.Size(267, 277);
@@ -155,12 +155,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.BtSRS.BackColor = System.Drawing.Color.ForestGreen;
             this.BtSRS.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtSRS.Location = new System.Drawing.Point(858, 329);
+            this.BtSRS.Location = new System.Drawing.Point(867, 329);
             this.BtSRS.Name = "BtSRS";
             this.BtSRS.Size = new System.Drawing.Size(274, 277);
             this.BtSRS.TabIndex = 5;
-            this.BtSRS.Text = "Service Request Status:\r\n \r\n\r\nCurrently under service we appolozie for the inconv" +
-    "ince \r\n";
+            this.BtSRS.Text = "Service Request Status:\r\n \r\n\r\nHere to see the status of the reported issues \r\n\r\n";
             this.BtSRS.UseVisualStyleBackColor = false;
             this.BtSRS.Click += new System.EventHandler(this.BtSRS_Click);
             // 

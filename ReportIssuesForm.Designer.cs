@@ -134,7 +134,7 @@
             // 
             this.rTBDescricption.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.rTBDescricption.Location = new System.Drawing.Point(381, 429);
+            this.rTBDescricption.Location = new System.Drawing.Point(381, 438);
             this.rTBDescricption.Name = "rTBDescricption";
             this.rTBDescricption.Size = new System.Drawing.Size(763, 107);
             this.rTBDescricption.TabIndex = 3;
@@ -155,7 +155,7 @@
             // 
             this.label3.BackColor = System.Drawing.Color.Peru;
             this.label3.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(138, 291);
+            this.label3.Location = new System.Drawing.Point(146, 291);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(132, 59);
             this.label3.TabIndex = 6;
@@ -172,12 +172,13 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Category:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
             this.label5.BackColor = System.Drawing.Color.Peru;
             this.label5.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(138, 429);
+            this.label5.Location = new System.Drawing.Point(138, 438);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(140, 74);
             this.label5.TabIndex = 8;
@@ -220,9 +221,10 @@
             this.LbProgress.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LbProgress.Location = new System.Drawing.Point(377, 568);
             this.LbProgress.Name = "LbProgress";
-            this.LbProgress.Size = new System.Drawing.Size(284, 23);
+            this.LbProgress.Size = new System.Drawing.Size(367, 46);
             this.LbProgress.TabIndex = 11;
             this.LbProgress.Text = "Thank you for reporting! Progress 0%";
+            this.LbProgress.Click += new System.EventHandler(this.LbProgress_Click);
             // 
             // LbIssReport
             // 
@@ -231,7 +233,7 @@
             this.LbIssReport.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LbIssReport.Location = new System.Drawing.Point(377, 636);
             this.LbIssReport.Name = "LbIssReport";
-            this.LbIssReport.Size = new System.Drawing.Size(174, 23);
+            this.LbIssReport.Size = new System.Drawing.Size(227, 52);
             this.LbIssReport.TabIndex = 12;
             this.LbIssReport.Text = "Issues Reported: 0";
             // 

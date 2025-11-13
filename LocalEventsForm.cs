@@ -3,18 +3,21 @@ using System.Windows.Forms;
 
 namespace Municipality
 {
+    // form that shows the local events
     public partial class LocalEventsForm : Form
     {
+        // inizilaize componet for window to open maximized 
         public LocalEventsForm()
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
-            LbUpcomingEve.Text = "please enter a category and optionally a date to see events";
+            LbUpcomingEve.Text = "please enter a category and optionally a date to see the events";
           this.BtSearchCat.Click += new System.EventHandler(this.BtSearchCat_Click);
                 this.BtFilter.Click += new System.EventHandler(this.BtFilter_Click);
            this.BtRMM1.Click += new System.EventHandler(this.BtRMM1_Click_1);
         } 
 
+        // handler for the search button
         private void BtSearchCat_Click(object sender, EventArgs e)
         {
            if (string.IsNullOrWhiteSpace(TbSearchCat.Text))
@@ -28,15 +31,16 @@ namespace Municipality
             TbSearchCat.Clear();
         }
 
+        // handler for the filter button. 
         private void BtFilter_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(TbFilter.Text))
             {
-              MessageBox.Show("please enter a date to filter eg 2025-10-20 .");
+             MessageBox.Show("please enter a date to filter eg 2025-10-20 .");
                 return;
             }
 
-            string date = TbFilter.Text.Trim();
+           string date = TbFilter.Text.Trim();
             string currentCategory = "";
             if (LbUpcomingEve.Text.Contains("Category:"))
             {
@@ -49,11 +53,11 @@ namespace Municipality
             TbFilter.Clear();
         }
 
+          // closes the forms and goes to the main menu
           private void BtRMM1_Click(object sender, EventArgs e)
         {
          this.Close();
         }
-
        private void BtRMM1_Click_1 (object sender, EventArgs e)
         {
             this.Close();
